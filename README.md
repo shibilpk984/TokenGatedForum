@@ -1,4 +1,7 @@
-# Forum
+# Token gated Community Forum
+
+
+
 
 ## Tools and Dependencies
 
