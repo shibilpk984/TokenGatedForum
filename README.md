@@ -12,7 +12,7 @@
 - [React.js](Frontend Framework)
 - [Socket.io] (Client & Server communication)
 
-## mode version 
+## node version 
 node 18.12.0
 
 ## Setting Up
