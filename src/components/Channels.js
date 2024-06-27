@@ -23,7 +23,7 @@ const Channels = ({ provider, account, forum, channels, currentChannel, setCurre
   return (
     <div className="channels">
       <div className="channels__text">
-        <h2>Text Channels</h2>
+        <h2>Channels</h2>
         <ul>
           {channels.map((channel, index) => (
             <li
