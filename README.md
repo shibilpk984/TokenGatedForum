@@ -3,7 +3,7 @@
 
 # Dapp Demo video
 
-
+tap to play
 [![Watch the video](https://img.youtube.com/vi/TfEaVcCuNQQ/maxresdefault.jpg)](https://youtu.be/TfEaVcCuNQQ)
 
 
@@ -20,7 +20,7 @@
 node 18.12.0
 
 ## Setting Up 
-Video
+tap to play
 [![Watch the video](https://img.youtube.com/vi/X38POCqqvng/maxresdefault.jpg)](https://youtu.be/X38POCqqvng?si=NDCPgtzRVs4Q6fzn)
 
 
