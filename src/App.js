@@ -88,9 +88,9 @@ function App() {
      <h1>{}</h1>
 
       <main>
-        {/* server component */}
+        /* server component */
         <Servers/>
-      {/* channels component */}
+      /* channels component */
         <Channels
         provider={provider}
         account={account}
@@ -101,7 +101,7 @@ function App() {
         />
       
         <Messages
-        {/* messages component */} 
+        /* messages component */
         account={account}
         messages={messages}
         currentChannel={currentChannel}
