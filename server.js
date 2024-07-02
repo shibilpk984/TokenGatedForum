@@ -1,8 +1,12 @@
+// Initializing Express application
+
 const express = require('express')
 const app = express()
-
+//set port  for server to 3030
 const PORT = process.env.PORT || 3030
+// starts server
 const server = app.listen(PORT, () => console.log(`Listening on ${PORT}\n`))
+// An array of message objects, each containing information about pre-defined  message's in each channels
 
 const messages = [
   {
@@ -117,14 +121,8 @@ const messages = [
     account: "0xcA8Fa8f0b631EcdB18Cda619C4Fc9d197c8aFfCa",
     text: "Channel Price List : 0.00001 ETH"
            
-  },
-  
-
-
-  
-  
-  
-]
+  },]
+  // importing socket.io library and start socket.io server and connectto port 3030.
 
 const { Server } = require("socket.io");
 const io = new Server(server, {
@@ -132,14 +130,14 @@ const io = new Server(server, {
     origin: "http://localhost:3000"
   }
 })
-
+// logs
 io.on('connection', (socket) => {
   console.log('user connected')
-
+// send messages to frontend when call getMessage function
   socket.on('get messages', () => {
     io.emit('get messages', messages)
   })
-
+  // recive new message from user and add display it  
   socket.on('new message', (msg) => {
     messages.push(msg)
     io.emit('new message', messages)
