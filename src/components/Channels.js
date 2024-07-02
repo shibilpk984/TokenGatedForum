@@ -46,11 +46,11 @@ const Channels = ({ provider, account, forum, channels, currentChannel, setCurre
       
 
       <div className="add">
-      <h2 onClick={handleClick} style={{ cursor: 'pointer' }}>Add New Forums</h2>
+      <h2 onClick={handleClick} style={{ cursor: 'pointer' }}>Add New Forums</h2> // button to request for new forum
     </div>
       
     </div>
   );
 }
-
+// Export Channels component as the default export 
 export default Channels;
