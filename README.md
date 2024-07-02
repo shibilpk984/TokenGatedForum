@@ -1,6 +1,8 @@
 # Token gated Community Forum
 
 
+# Dapp Demo
+[![Watch the video](https://img.youtube.com/vi/TfEaVcCuNQQ/maxresdefault.jpg)](https://youtu.be/TfEaVcCuNQQ)
 
 
 ## Tools and Dependencies
@@ -16,6 +18,7 @@
 node 18.12.0
 
 ## Setting Up
+
 ## 1. Clone/Download the Repository
 
 ## 2. Install Dependencies:
