@@ -1,7 +1,7 @@
 # Token gated Community Forum
 
 
-# Dapp Demo
+# Dapp Demo video
 [![Watch the video](https://img.youtube.com/vi/TfEaVcCuNQQ/maxresdefault.jpg)](https://youtu.be/TfEaVcCuNQQ)
 
 
