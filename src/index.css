@@ -1,11 +1,14 @@
+
+/* Importing fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;500;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+/* defining margin, padding, and box-sizing for all elements */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/*defining colors */
 :root {
   --clr-mini-white: #d2cccc;
   --clr-cyan : #00FFFF;
@@ -24,7 +27,7 @@
 
   --clr-text-grey: #66666e;
 }
-
+/*styling for body element*/
 body {
   margin: 0;
   font-family: "Open Sans";
@@ -32,7 +35,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* ------------------------------------------------------ */
+
 /* -- NAVIGATION -- */
 
 nav {
@@ -45,11 +48,13 @@ nav {
   background-color: var(--clr-text-black);
   border-bottom: 2px solid var(--clr-cyan);
 }
+/*styling for logo in navigation*/
 .nav__logo {
   width: 50px; 
   height: auto;
   margin-right: 10px; 
 }
+/* Styling for the  heading */
 
 .nav__brand {
   display: flex;
@@ -68,6 +73,7 @@ nav {
   font-weight: 700;
   letter-spacing: 1px;
 }
+/* Styling for the connect button */
 
 .nav__connect {
   width: 175px;
@@ -92,7 +98,6 @@ nav {
   background-color: var(--clr-green);
 }
 
-/* ------------------------------------------------------ */
 /* -- MAIN -- */
 
 main {
@@ -126,8 +131,8 @@ main {
   grid-template-rows: repeat(12, 1fr);
 }
 
-/* ------------------------------------------------------ */
-/* -- SERVERS -- */
+
+/* Styling for the servers section */
 
 .server {
   background-color: var(--clr-grey);
@@ -159,13 +164,13 @@ main {
   height: 50%;
 }
 
-/* ------------------------------------------------------ */
-/* -- CHANNELS -- */
+/* Styling for the channels section */
 
 .channels__text {
   
   margin: 30px auto;
 }
+/* Styling for Channels heading  */
 
 .channels h2 {
   color: var(--clr-mini-white);
@@ -178,6 +183,8 @@ main {
   text-transform: uppercase;
   letter-spacing: -1px;
 }
+/* Styling for the list items inside channels */
+
 
 .channels ul li {
   color: var(--clr-text-grey);
@@ -197,14 +204,14 @@ main {
   background-color: var(--clr-light-grey);
   color: var(--clr-white);
 }
+/* Styling for the active list item */
 
 .channels .active {
   background-color: var(--clr-light-grey);
   color: var(--clr-white);
 }
+/* Styling for the text section */
 
-/* ------------------------------------------------------ */
-/* -- TEXT -- */
 
 .text .messages {
   grid-row: 1/11;
@@ -217,6 +224,7 @@ main {
   scroll-snap-align: end;
   max-height: 75vh;
 }
+/* Styling for individual messages */
 
 .text .message {
   width: 95%;
@@ -233,6 +241,7 @@ main {
 .text .message:hover {
   background-color: var(--clr-grey);
 }
+/* Styling for images inside messages */
 
 .text .message img {
   background-color: var(--clr-grey);
@@ -247,6 +256,8 @@ main {
   justify-content: center;
   align-items: center;
 }
+/* Styling for message content heading */
+
 
 .message_content h3 {
   color: var(--clr-white);
@@ -254,6 +265,7 @@ main {
   font-weight: 500;
   margin-left: 15px;
 }
+/* Styling for message content paragraph */
 
 .message_content p {
   color: var(--clr-white);
@@ -261,6 +273,8 @@ main {
   font-weight: 300;
   margin-left: 15px;
 }
+/* Styling for the form inside text */
+
 
 .text form {
   grid-row: 11/13;
@@ -269,6 +283,7 @@ main {
   justify-content: center;
   align-items: center;
 }
+/* Styling for the input field inside form */
 
 .text form input[type="text"] {
   grid-row: 11/13;
@@ -300,18 +315,20 @@ main {
   cursor: pointer;
   transition: all 250ms ease;
 }
+/* Styling for the submit button on hover */
 
 .text form button:hover {
   background-color: var(--clr-dark-grey);
 }
+/* Styling for the image inside the submit button */
 
 .text form img {
   width: 25px;
   height: 25px;
 }
 
-/* ------------------------------------------------------ */
-/* -- MEDIA QUERIES -- */
+/* Media query for screen sizes with a maximum width of 992px */
+
 
 @media screen and (max-width: 992px) {
   .servers {
@@ -331,6 +348,7 @@ main {
     margin: 0 auto;
   }
 }
+/* Media query for screen sizes with a maximum width of 576px */
 
 @media screen and (max-width: 576px) {
   .servers {
