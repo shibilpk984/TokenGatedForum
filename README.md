@@ -19,7 +19,12 @@
 ## node version 
 node 18.12.0
 
-## Setting Up
+## Setting Up 
+Video
+[![Watch the video](https://img.youtube.com/vi/X38POCqqvng/maxresdefault.jpg)](https://youtu.be/X38POCqqvng?si=NDCPgtzRVs4Q6fzn)
+
+
+
 
 ## 1. Clone/Download the Repository
 
