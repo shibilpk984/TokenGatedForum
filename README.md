@@ -4,7 +4,7 @@
 # Dapp Demo video
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TfEaVcCuNQQ" frameborder="0" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/TfEaVcCuNQQ/maxresdefault.jpg)](https://youtu.be/TfEaVcCuNQQ)
 
 
 ## Tools and Dependencies
